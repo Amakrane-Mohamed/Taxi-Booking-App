@@ -1,0 +1,25 @@
+<resources>
+    <color name="colorPrimary">#FF6200EE</color> <!-- Vibrant Purple -->
+    <color name="colorAccent">#FF03DAC5</color> <!-- Light Teal -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- White background -->
+    <color name="textColor">#333333</color> <!-- Dark Text -->
+    <color name="textColorSecondary">#777777</color> <!-- Light grey for subtitles -->
+    <color name="yellowBackground">#FFF9C4</color>
+    <color name="yellowAccent">#FDD835</color>
+    <color name="yellowHint">#FFEB3B</color>
+    <color name="black">#000000</color>
+    <color name="yellowPrimary">#FFB300</color>
+    <color name="softYellowBg">#FFF8D2</color>
+    <color name="white">#FFFFFF</color>
+    <!-- Accent yellow -->
+    <color name="yellowDark">#FF9800</color> <!-- Darker yellow for contrast -->
+    <color name="yellowLight">#FFF9C4</color> <!-- Light yellow for subtle backgrounds -->
+
+    <!-- Background Colors -->
+    <!-- Neutral background -->
+    <color name="cardBackgroundColor">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#333333</color> <!-- Dark text -->
+    <color name="textSecondary">#666666</color>
+</resources>

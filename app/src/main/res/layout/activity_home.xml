@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <!-- Profile Button (Top Right, Circular) -->
+    <ImageButton
+        android:id="@+id/btnProfile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circular_image_background"
+        android:src="@drawable/ic_profile"
+        android:contentDescription="Profile"
+        android:elevation="3dp"
+        android:scaleType="centerCrop"
+        android:clipToOutline="true"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Welcome Text (Centered) -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Ready for your next ride?"
+        android:textSize="30sp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center" />
+
+    <!-- Subtitle Text (Below Welcome) -->
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get to your destination safely and in style."
+        android:textSize="22sp"
+        android:textColor="@color/textColorSecondary"
+        android:layout_marginTop="8dp"
+        android:gravity="center" />
+
+    <!-- Map Image or Ride Preview (Placeholder for design) -->
+    <ImageView
+        android:id="@+id/ivRidePreview"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/taxiimg"
+        android:layout_marginTop="40dp" />
+
+    <!-- Take a Ride Button (Centered, Full Width) -->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTakeRide"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Pick Profile Image"
+        android:textColor="@android:color/white"
+        app:cornerRadius="12dp"
+        android:layout_marginTop="99dp"
+        app:backgroundTint="@color/yellowAccent"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>
